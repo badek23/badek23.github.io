@@ -24,7 +24,7 @@
     <h2 class="display-4 mb-5">Hi, I'm Kate!</h2>
     <div class="row justify-content-center mb-5">
       <div class="col-lg-4">
-        <img src="images/headshot.jpg" alt="Profile Picture" class="img-fluid about-img">
+        <img src="images/headshot_square.jpg" alt="Profile Picture" class="img-fluid about-img">
       </div>
     </div>
     <div class="row">
@@ -40,7 +40,58 @@
   </div>
 </section>
 
-<!-- Projects Section -->
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Technical Skills</h2>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <!-- Skill Category 1 Card -->
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Languages</h5>
+            <img src="icons/python.png" style="width: 48px; height: 48px; object-fit: contain;" alt="Python logo">
+            <p class="card-text">Python, SQL</p>
+            <a href="#" class="btn btn-primary">Certificate here</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill Category 2 Card -->
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Libraries</h5>
+            <p class="card-text">Certification in progress.</p>
+            <a href="#" class="btn btn-primary">Certificate here</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill Category 3 Card -->
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Tools and Technologies</h5>
+            <p class="card-text"></p>
+            <a href="https://www.credly.com/badges/93cf8447-a7e3-423e-a2a6-83aa00cbbe58/public_url" class="btn btn-primary">Certificate here</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill Category 4 Card -->
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Data Visualization</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum orci et lorem consequat, vitae blandit odio rutrum.</p>
+            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects 1 Section -->
 <section id="projects" class="py-5">
     <div class="container">
       <h2 class="text-center mb-5">Projects</h2>
@@ -48,11 +99,11 @@
         <!-- Project 1 Card -->
         <div class="col">
           <div class="card h-100">
-            <img src="images/projects/1.jpg" class="card-img-top" alt="Split Payments App">
+            <img src="images/paymentsapp.jpg" class="card-img-top" alt="Split Payments App">
             <div class="card-body">
               <h5 class="card-title">Split Payments App</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum orci et lorem consequat, vitae blandit odio rutrum.</p>
-              <a href="https://github.com/badek23/PaymentsApp" class="btn btn-primary">GitHub Repo</a>
+              <p class="card-text">After a trip with friends where we ran out of entries on the free version of Splitwise, I wrote my own payments app in Python and deployed it for easy cost sharing with friends.</p>
+              <a href="https://github.com/badek23/PaymentsApp" class="btn btn-secondary">GitHub Repo</a>
               <a href="https://payments.streamlit.app/" class="btn btn-secondary">Deployed App</a>
             </div>
           </div>
@@ -64,7 +115,7 @@
             <div class="card-body">
               <h5 class="card-title">Bike Rental Predictions</h5>
               <p class="card-text">An app that provides (1) important data insights, (2) a predictive model for bike rentals by hour, (3) model performance insights, (4) business recommendations, and (5) a simulator that accepts user input and predicts the number of bike rentals.</p>
-              <a href="https://github.com/badek23/BikeRentalPredictions" class="btn btn-primary">GitHub Repo</a>
+              <a href="https://github.com/badek23/BikeRentalPredictions" class="btn btn-secondary">GitHub Repo</a>
               <a href="https://bikerentalpredictor.streamlit.app/" class="btn btn-secondary">Deployed App</a>
             </div>
           </div>
@@ -72,25 +123,63 @@
         <!-- Project 3 Card -->
         <div class="col">
           <div class="card h-100">
-            <img src="images/projects/3.jpg" class="card-img-top" alt="Project 3">
+            <img src="images/projects/3.jpg" class="card-img-top" alt="WhatsApp Sentiment Analysis App">
             <div class="card-body">
               <h5 class="card-title">WhatsApp Sentiment Analysis</h5>
               <p class="card-text">In-progress app for gaining insights on WhatsApp conversations. Analyze the sentiments of all parties and tell if the vibe is off recently!</p>
-              <a href="https://github.com/badek23/conversation_sentiment" class="btn btn-primary">GitHub Repo</a>
+              <a href="https://github.com/badek23/conversation_sentiment" class="btn btn-secondary">GitHub Repo</a>
               <a href="https://whosangrier.streamlit.app/" class="btn btn-secondary">Deployed App</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 Card -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/nn_num.png" class="card-img-top" alt="Handwritten NN Numbers">
+            <div class="card-body">
+              <h5 class="card-title">Number Predictor</h5>
+              <p class="card-text">After winning a Neural Networks workshop hosted by Google Developer Student Clubs, a classmate and I built a neural network without ML libraries that accepts a hand-drawn number and predicts which number is depicted. We also remade the project using TensorFlow.</p>
+              <a href="https://github.com/badek23/HandwrittenNumbers" class="btn btn-secondary">GitHub Repo</a>
+              <a href="https://handwrittennumbers.streamlit.app/" class="btn btn-secondary">Deployed App</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 Card -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/volcano.png" class="card-img-top" alt="Volcanic Eruptions Dashboard">
+            <div class="card-body">
+              <h5 class="card-title">Volcanic Eruptions Dashboard</h5>
+              <p class="card-text">This dashboard utilizes visualization best practices (explained in the grey boxes) to visualize data on volcanic eruptions during the Holocene Period.</p>
+              <a href="https://lookerstudio.google.com/u/0/reporting/79b55964-9e3a-476d-a7cb-8263597a3344/page/TzrrD" class="btn btn-secondary">Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 6 Card -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/openai.png" class="card-img-top" alt="Open AI Teaching Assistant App">
+            <div class="card-body">
+              <h5 class="card-title">OpenAI Teaching Assistant</h5>
+              <p class="card-text">Proof of concept for an AI Teaching Assistant; my idea centered around using artificial intelligence to hyperpersonalize content and teaching techniques, to power interactive and adaptive case studies, and to mediate many small-group debates at once.</p>
+              <a href="https://github.com/badek23/Open-AI-API" class="btn btn-secondary">GitHub Repo</a>
+              <a href="https://ai-business-strategy.streamlit.app/" class="btn btn-secondary">Deployed App</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
+
   
-<!-- Skills Section -->
-<section id="skills" class="py-5">
+<!-- Certification Section -->
+<section id="certifications" class="py-5">
     <div class="container">
       <h2 class="text-center mb-5">Certifications</h2>
       <div class="row row-cols-1 row-cols-md-4 g-4">
-        <!-- Skill Category 1 Card -->
+        <!-- Certification 1 Card -->
         <div class="col">
           <div class="card h-100 text-center">
             <img src="images/skills/1.png" class="card-img-top" alt="AWS Cloud Practitioner">
@@ -101,7 +190,7 @@
             </div>
           </div>
         </div>
-        <!-- Skill Category 2 Card -->
+        <!-- Certification 2 Card -->
         <div class="col">
           <div class="card h-100 text-center">
             <img src="images/skills/2.png" class="card-img-top" alt="Tableau Desktop Specialist">
@@ -112,7 +201,7 @@
             </div>
           </div>
         </div>
-        <!-- Skill Category 3 Card -->
+        <!-- Certification 3 Card -->
         <div class="col">
           <div class="card h-100 text-center">
             <img src="images/Python_101_Data_Science.png" class="card-img-top" alt="IBM Python for Data Science - Cognitive Class">
@@ -123,7 +212,7 @@
             </div>
           </div>
         </div>
-        <!-- Skill Category 4 Card -->
+        <!-- Certification Card -->
         <div class="col">
           <div class="card h-100 text-center">
             <img src="images/skills/4.png" class="card-img-top" alt="Skill 4">
@@ -198,10 +287,10 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#xxx">XXX</a></li>
-        <li class="nav-item"><a class="nav-link" href="#x">XXX</a></li>
-        <li class="nav-item"><a class="nav-link" href="#xx">XXX</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
       </ul>
     </div>
   </div>
