@@ -13,6 +13,11 @@
       border-radius: 50%;
       border: 5px solid #fff; /* Solid border with white color */
     }
+    .custom-bt {
+      background-color: white;
+      color: black;
+      border: 6px solid #000000; 
+    }
   </style>
 </head>
 <body>
@@ -51,8 +56,8 @@
           <div class="card-body">
             <h5 class="card-title">Languages</h5>
             <img src="icons/python.png" style="width: 48px; height: 48px; object-fit: contain;" alt="Python logo">
-            <p class="card-text">Python, SQL</p>
-            <a href="#" class="btn btn-primary">Certificate here</a>
+            <img src="icons/sql.png" style="width: 48px; height: 48px; object-fit: contain;" alt="SQL logo">
+            <p class="card-text">Python | SQL</p>
           </div>
         </div>
       </div>
@@ -61,8 +66,8 @@
         <div class="card h-100 text-center">
           <div class="card-body">
             <h5 class="card-title">Libraries</h5>
-            <p class="card-text">Certification in progress.</p>
-            <a href="#" class="btn btn-primary">Certificate here</a>
+            <img src="icons/pandas.png" style="width: 48px; height: 48px; object-fit: contain;" alt="Pandas logo">
+            <p class="card-text">scikit-learn | TensorFlow | pandas | numpy | openai | matplotlib | plotly | seaborn | streamlit | joblib</p>
           </div>
         </div>
       </div>
@@ -71,8 +76,9 @@
         <div class="card h-100 text-center">
           <div class="card-body">
             <h5 class="card-title">Tools and Technologies</h5>
-            <p class="card-text"></p>
-            <a href="https://www.credly.com/badges/93cf8447-a7e3-423e-a2a6-83aa00cbbe58/public_url" class="btn btn-primary">Certificate here</a>
+            <img src="icons/colab.png" style="width: 48px; height: 48px; object-fit: contain;" alt="Google Colab logo">
+            <img src="icons/jupyter.png" style="width: 48px; height: 48px; object-fit: contain;" alt="Jupyter logo">
+            <p class="card-text">Apache Spark | Jupyter | Apache NiFi | DBeaver | MySQL Workbench | Google Colab</p>
           </div>
         </div>
       </div>
@@ -81,8 +87,9 @@
         <div class="card h-100 text-center">
           <div class="card-body">
             <h5 class="card-title">Data Visualization</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum orci et lorem consequat, vitae blandit odio rutrum.</p>
-            <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+            <img src="icons/tableau.png" style="width: 48px; height: 48px; object-fit: contain;" alt="Tableau logo">
+            <img src="icons/looker.png" style="width: 48px; height: 48px; object-fit: contain;" alt="Looker Studio logo">
+            <p class="card-text">Tableau | Looker Studio</p>
           </div>
         </div>
       </div>
@@ -182,22 +189,20 @@
         <!-- Certification 1 Card -->
         <div class="col">
           <div class="card h-100 text-center">
-            <img src="images/skills/1.png" class="card-img-top" alt="AWS Cloud Practitioner">
+            <img src="images/aws_cloud.png" class="card-img-top" alt="AWS Cloud Practitioner">
             <div class="card-body">
               <h5 class="card-title">AWS Cloud Practitioner</h5>
               <p class="card-text">Certification in progress.</p>
-              <a href="#" class="btn btn-primary">Certificate here</a>
             </div>
           </div>
         </div>
         <!-- Certification 2 Card -->
         <div class="col">
           <div class="card h-100 text-center">
-            <img src="images/skills/2.png" class="card-img-top" alt="Tableau Desktop Specialist">
+            <img src="images/tableau_cert.png" class="card-img-top" alt="Tableau Desktop Specialist">
             <div class="card-body">
               <h5 class="card-title">Tableau Desktop Specialist</h5>
               <p class="card-text">Certification in progress.</p>
-              <a href="#" class="btn btn-primary">Certificate here</a>
             </div>
           </div>
         </div>
@@ -208,7 +213,7 @@
             <div class="card-body">
               <h5 class="card-title">IBM Python for Data Science</h5>
               <p class="card-text"></p>
-              <a href="https://www.credly.com/badges/93cf8447-a7e3-423e-a2a6-83aa00cbbe58/public_url" class="btn btn-primary">Certificate here</a>
+              <a href="https://www.credly.com/badges/93cf8447-a7e3-423e-a2a6-83aa00cbbe58/public_url" class="btn btn-secondary">Certificate</a>
             </div>
           </div>
         </div>
@@ -232,17 +237,9 @@
     <div class="container text-center">
       <h2 class="display-4 mb-5">Contact Me</h2>
       
-      <!-- Contact Information -->
-      <div class="row mb-5">
-        <!-- Email -->
-        <div class="col-md-6">
-          <p><i class="bi bi-envelope-fill"></i> kate.bade@student.ie.edu </p>
-        </div>
-        <!-- Phone Number -->
-        <div class="col-md-6">
-          <p><i class="bi bi-phone-fill"></i> +34 678 83 66 30 </p>
-        </div>
-      </div>
+    <!-- Contact Information -->
+      <p><i class="bi bi-envelope-fill"></i>kate.bade@student.ie.edu</p>
+      <p><i class="bi bi-phone-fill"></i>+34 678 83 66 30</p>
       
       <!-- Social Media Icons -->
       <div class="row justify-content-center">
@@ -250,16 +247,15 @@
           <div class="d-flex justify-content-center">
             <!-- LinkedIn -->
             <a href="https://www.linkedin.com/in/katherinebade" class="btn btn-pink btn-circle me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn">
-              <img src="icons/linkedin.png" alt="LinkedIn">
+              <img src="icons/linkedin.png" style="width: 38px; height: 38px; object-fit: contain;" alt="LinkedIn">
             </a>
             <!-- GitHub -->
             <a href="https://www.github.com/badek23" class="btn btn-pink btn-circle me-3" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
-              <img src="icons/github.png" alt="GitHub">
+              <img src="icons/github.png" style="width: 38px; height: 38px; object-fit: contain;" alt="GitHub">
             </a>
           </div>
         </div>
       </div>
-      
     </div>
 </section>
 
